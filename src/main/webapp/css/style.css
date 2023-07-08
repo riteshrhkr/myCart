@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+.body-color {
+	background-color: #ad8de6;
+}
+
+.nav-bg {
+	background-color: rgb(113, 74, 180);
+	border-color: rgb(113, 74, 180);
+}
+
+.admin .card {
+	border: 1px solid rgb(113, 74, 180);
+}
+
+.admin .card:hover {
+	background-color: #e2e2e2;
+	cursor: pointer;
+}
+
+.discount-label {
+	font-size: 10px !important;
+	font-style: italic !important;
+	color: red;
+}
+
+.discount-label:hover {
+	color: lime !important;
+}
+
+.real-price {
+	font-size: 10px !important;
+	font-style: italic !important;
+	color: black !important;
+	text-decoration: line-through !important;
+}
+
+/* for toast message */
+.toast {
+	position: fixed; 
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	z-index: 9999;
+}

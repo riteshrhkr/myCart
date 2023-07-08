@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings -->
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/myCart</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">Password@1234</property>
+
+		<!-- SQL dialect for MySQL. Dialect tell hibernate that use this database 
+			query to perform operations -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+		<!-- If table not exist then create. If exist then insert, delete, update 
+			or other -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+
+		<!-- Print SQL statements to the console for debugging -->
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- Mapping files -->
+		<!-- Add your entity class mappings here -->
+		<mapping class="com.entities.User" />
+		<mapping class="com.entities.Category" />
+		<mapping class="com.entities.Product" />
+
+	</session-factory>
+</hibernate-configuration>

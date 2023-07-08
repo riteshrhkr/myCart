@@ -1,0 +1,91 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<display-name>RegisterServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlets.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<display-name>LoginServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlets.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogOut</servlet-name>
+		<display-name>LogOut</display-name>
+		<description></description>
+		<servlet-class>com.servlets.LogOut</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CategoryDao</servlet-name>
+		<display-name>CategoryDao</display-name>
+		<description></description>
+		<servlet-class>com.dao.CategoryDao</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddCategoryServlet</servlet-name>
+		<display-name>AddCategoryServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlets.admin.AddCategoryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddProductServlet</servlet-name>
+		<display-name>AddProductServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlets.admin.AddProductServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Test</servlet-name>
+		<display-name>Test</display-name>
+		<description></description>
+		<servlet-class>com.servlets.Test</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CheckoutServlet</servlet-name>
+		<display-name>CheckoutServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlets.CheckoutServlet</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogOut</servlet-name>
+		<url-pattern>/LogOut</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CategoryDao</servlet-name>
+		<url-pattern>/CategoryDao</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCategoryServlet</servlet-name>
+		<url-pattern>/AddCategoryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddProductServlet</servlet-name>
+		<url-pattern>/AddProductServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/Test</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CheckoutServlet</servlet-name>
+		<url-pattern>/CheckoutServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
