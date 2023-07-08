@@ -1,5 +1,5 @@
 # myCart
- A shopping WebApp made using Java, Servlet, JSP, CSS, BootStrap, JavaScript, Hibernate, MySQL.
+ A shopping WebApp made using Java, Servlet, JSP, Hibernate,MySQL, HTML, CSS, BootStrap, JavaScript.
 ## Tools and Tips
  * Create a database named myCart(Required)
  * Server I have used Apache Tomcat server(v 9.0.75)
