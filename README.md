@@ -12,6 +12,8 @@
  * Register :- Fill your basic details and register. If you already have an account then login. If you alreday registered and try to register again then a popup message come saying that "This email-id alredy exist". Here double password checking is enabled.
   
  * Login  :- If you are an admin then it will automaticly redirect to admin page. And if you are a normal user then you will be redirected to home page. If you enter worng email-id or password then a popup message come saying that "Invalid email-id or password!"
+
+ * Forget password  :- You have also feature to retrive you account by changing password. 
  
  * Home page :- A list of product will we show. You can filter products according to their category. A card represent a product and each card have a product photo, Title, Descreption, add to card button and price of the product with origional price and discount.
  
